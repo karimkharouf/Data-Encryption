@@ -1,2 +1,9 @@
 # Data-Encryption
-This is my first JavaFX project, with the idea taken from my COE211 Computer Programming Lab and I expanded on it and added to it.
+This is my first big JavaFX project, with the idea taken from my COE211 Computer Programming Lab and I expanded on it and added to it.
+I started this project right after the end of the Spring 2020 semester (May), and worked on it for a couple of weeks. I learned the basics of JavaFX during the first month of summer, then after practicing them, I started with this idea. Unfortunately, I wrote my first code, and since then it has changed a lot, with a lot of added and removed features, improvements, and debugs, but all non-recorded, since I was not on GitHub back then. So the uploaded version is sort of the final version, but there are lots of features to be still added and fixed, and some are disabled since I wasn't able to finish it myself. Will work and update this as frequently as I can.
+
+The program is basically this: there are accounts, with unique usernames and passwords, and each user can log in and store their data in their account, then encrypt it. Account details are stored in the accounts file. Data is stored in a separate file for each user. When encrypted, the file is replaced with dummy text. Users can change their username, password, profile picture, etc...
+The encryption is done using pictures. The characters from the data are stored in a PNG picture in the form of RGB pixels, and when decrypting the image pixel RGB values are read and returned as characters, using a certain encryption/decryption algorithm. Encryption code is given after encryption, and decryption code is required to decrypt. There is an admin account with extra priviliges and features. 
+
+Finally I would like to thank my colleagues and team members at LAU who helped in developing the initial encryption algorithm code, which was the original final project for our lab course, and then helped in turning it into something more: Yara Hamad and Mohamad Mehdi Choaib (mmsh28).
+Self documenting*
